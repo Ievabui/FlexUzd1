@@ -1,0 +1,97 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #edf5f5;
+	min-height: 900px;
+	min-width: 900px;
+}
+
+header, footer {
+	width: 870px;
+	height: 70px;
+	line-height: 70px;
+	margin: 10px;
+}
+
+header {
+	background-color: #4edede;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5em;
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+}
+
+div {
+	margin: 10px;
+}
+
+.main, .extra {
+	width: 500px;
+}
+
+.main {
+	background-color: #e0da28;
+	height: 500px;	
+}
+
+.extra {
+	height: 250px;
+	background-color: #635f66;
+}
+
+.hero, .sidebar {
+	width: 350px;
+}
+
+.hero {
+	height: 300px;
+	background-color: #d6ccde;
+}
+
+.sidebar {
+	height: 450px;
+	background-color: #5ea664;
+	
+}
+
+.images, .posts {
+	height: 150px;
+}
+
+.images {
+	width: 600px;
+	background-color: #59bd86;
+	
+}
+.posts {
+	width: 250px;
+	background-color: #e4bdf2;	
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex1, .flex3 {
+	flex-direction: column;
+}
+
+.flex2 {
+	display: flex;
+	flex-direction: row;
+}
+
+footer {
+	background-color: #faea07;
+}
